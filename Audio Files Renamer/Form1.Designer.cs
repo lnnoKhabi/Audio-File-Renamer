@@ -100,6 +100,7 @@
 			this.button1_Browse.TabIndex = 0;
 			this.button1_Browse.Text = "Browse folder...";
 			this.button1_Browse.UseVisualStyleBackColor = true;
+			this.button1_Browse.Click += new System.EventHandler(this.button1_Browse_Click);
 			// 
 			// groupBox1_Edit
 			// 
@@ -264,6 +265,7 @@
             this.columnHeader5_Genre});
 			this.listView1.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.listView1.FullRowSelect = true;
+			this.listView1.GridLines = true;
 			this.listView1.HideSelection = false;
 			this.listView1.Location = new System.Drawing.Point(3, 16);
 			this.listView1.Name = "listView1";
